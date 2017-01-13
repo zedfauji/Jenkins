@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'Oh yeah \n This is more than a test is reveletion \n'
+       content 'This is more than a test is reveletion'
 end
