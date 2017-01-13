@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'This is more than a test is reveletion'
+       content 'This test is about Nexus'
 end
