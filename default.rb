@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'You really though was that easy?'
+       content 'Easy breezee'
 end
