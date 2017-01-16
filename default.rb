@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'This test is about sdsdDockers!'
+       content 'This test is about sdsdjkDockers!'
 end
