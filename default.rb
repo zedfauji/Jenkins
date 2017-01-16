@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'Easy breezee'
+       content 'Test completed successfully'
 end
