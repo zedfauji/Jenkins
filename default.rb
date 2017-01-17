@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'This most be shown if everything went fine again'
+       content 'This test will show if docker actually does what it supossed to'
 end
