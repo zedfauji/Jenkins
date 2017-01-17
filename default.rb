@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'Test completed successfully'
+       content 'This most be shown if everything went fine'
 end
