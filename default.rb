@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'Second test in the last 20 minutes'
+       content 'Tested before the demo'
 end
