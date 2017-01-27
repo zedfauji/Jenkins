@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 file '/etc/motd' do
-       content 'This is the real demo'
+       content 'I want to know if it works now :p'
 end
