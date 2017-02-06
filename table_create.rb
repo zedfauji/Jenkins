@@ -9,7 +9,7 @@
 bash 'Select all users from dba_users' do             
   code <<-EOH
     sqlplus64 system/LetsDocker@sql-server:1521/ORCLPDB1 <<-SQLEOH
-    CREATE TABLE demo_prueba3(
+    CREATE TABLE demo_prueba2(
     id    NUMBER(10),
     data  VARCHAR2(50)
     );
