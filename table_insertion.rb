@@ -9,7 +9,7 @@
 bash 'Select all users from dba_users' do             
   code <<-EOH
     sqlplus64 system/LetsDocker@sql-server:1521/ORCLPDB1 <<-SQLEOH
-    INSERT INTO demo_prueba (id, data)
+    INSERT INTO demo_prueba1 (id, data)
     VALUES (66, 'prueba para el demo');
     exit;
     SQLEOH
