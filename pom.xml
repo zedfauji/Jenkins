@@ -12,6 +12,13 @@
         maven plugins used in a typical AEM project.
     </description>
 
+<distributionManagement>
+         <snapshotRepository>
+           <id>nexus-snapshots</id>
+           <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+         </snapshotRepository>
+        </distributionManagement>
+
     <modules>
         <module>aem-parent</module>
         <module>bundles/commons</module>
