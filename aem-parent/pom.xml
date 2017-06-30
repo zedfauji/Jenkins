@@ -20,7 +20,7 @@
         <server.user>admin</server.user>
         <server.password>admin</server.password>
         <server.port>4502</server.port>
-        <server.url>http://localhost:${server.port}</server.url>
+        <server.url>http://vmchefsrv.southcentralus.cloudapp.azure.com:${server.port}</server.url>
         <server.install.path>/apps/aem-sample-project/install</server.install.path>
 
         <!-- set correct source and report encoding -->
@@ -85,7 +85,7 @@
 				</executions>
 				<configuration>
 					<serverId>nexus</serverId>
-					<nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+					<nexusUrl>http://vmchefsrv.southcentralus.cloudapp.azure.com:8081/nexus/</nexusUrl>
 					<skipStaging>true</skipStaging>
 				</configuration>
 			</plugin>
